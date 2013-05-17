@@ -1,70 +1,12 @@
+ <% if user_signed_in? %>
+<h1>you are logged in</h1>
 
+ <% else %>
 <h1>Welcome to my rails practice page!</h1>
-<p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p>
-<p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p>
-<p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p>
-<p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p><p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p><p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p><p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p><p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p><p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p><p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p><p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p><p>
-	Hey, this is just practice page.
-	<%= link_to "rails", "www.google.com" %>
-
-	<a href="http://www.google.com">Hello Wolrd!</a>
-</p>
-
-<p>
-	<%= link_to "sign up now!", "#" %>
-</p>
+	<p>
+		Hey, this is just practice page.
+	</p>
+	<p>
+		<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-large" %>
+	</p>
+<% end %>
