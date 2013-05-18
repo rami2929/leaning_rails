@@ -3,5 +3,28 @@ body {
 	padding-top: 60px;
 }
 
-@import 'bootstrap-responsive'
+@import 'bootstrap-responsive';
 
+.box {
+	margin: 5px;
+	padding: 5px;
+	font-size: 11px;
+	line-height: 1.4em;
+	float: left;
+	-webkit-border-radious: 5px;
+	-moz-border-radious: 5px;
+	border-radious: 5px;
+	box-shadow: 1px 1px 10px #444;
+	width: 214px;
+}
+
+.box img {
+	dispaly: block;
+	width: 100%;
+	-webkit-border-radious: 5px;
+	-moz-border-radious: 5px;
+	border-radious: 5px;
+}
+.description {
+	margin: 10px 0 5px 0;
+}
